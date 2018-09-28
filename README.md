@@ -12,7 +12,7 @@ Unlike traditional deep learning based approaches which use 2-classes (backgroun
 
 In the following figure, sample test image is shown on the left. Estimated class labels at the output of the model is shown in the middle. In this class labels, white, blue, red and green regions represent background, cell center, cell inner boundary and cell outer boundary classes, respectively. Figure at the right shows final segmented cells after applying region growing.
 <p align="center">
-  <img src="results/sampleSegmentation.png" width="80%" height="80%"/>
+  <img src="./sampleSegmentation.png" width="80%" height="80%"/>
 </p>
 
 Prerequisites
