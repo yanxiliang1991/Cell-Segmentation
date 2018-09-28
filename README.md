@@ -1,6 +1,5 @@
-# CellSegmentation
-Example Deep learning based cell segmentation on sample a liver image
 
+Deep Learning Based Cell Segmentation
 ===
 
 This is a research project about Cell Segmentation in Histopathological Images based on Convolutional Neural Networks
