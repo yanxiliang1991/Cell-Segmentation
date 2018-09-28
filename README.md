@@ -2,7 +2,7 @@
 Deep Learning Based Cell Segmentation
 ===
 
-This is a research project about Cell Segmentation in Histopathological Images based on Convolutional Neural Networks
+This is an example for cell segmentation in histopathological images based on convolutional neural networks.
 
 Unlike traditional deep learning based approaches which use 2-classes (background and cell), we use 4-classes (background, cell center, cell inner boundary and cell outer boundary) to better delineate nucleus boundaries as well. In this project, both intensity based and morphological features of cells are used for the segmentation.
 
