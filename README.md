@@ -10,17 +10,23 @@ Unlike traditional deep learning based approaches which use 2-classes ("backgrou
   <img src="./patchExtraction.png" width="50%" height="50%"/>
 </p>
 
-[Caffe](http://caffe.berkeleyvision.org/) framework and Matlab is used for the implementation of the project
-
 ***
 
-In the following figure, sample test image is shown on the left. Estimated class labels at the output of the model is shown in the middle. In this class labels, white, blue, red and green regions represent background, cell center, cell inner boundary and cell outer boundary classes, respectively. Figure at the right shows final segmented cells after applying region growing.
+Data Augmentation
+-------------
+
+
+Results
+-------------
+In the following figure, sample segmentation results are shown for 2-class and 4-class deep learning model. In this figure, each class label is shown with a different color ("background": white, "cell center": blue, "cell innerboundary": red, and "cell outerboundary": green). Here, notice that 4-class model performs better segmentation especially for overlapping cells. 
 <p align="center">
   <img src="./sampleSegmentation.png" width="80%" height="80%"/>
 </p>
 
 Prerequisites
 -------------
+[Caffe](http://caffe.berkeleyvision.org/) framework and Matlab is used for the implementation of the project
+
 Matlab, Caffe, Matcaffe
 
 Project is implemented on Ubuntu 16.04 machine with Matlab R2014a installed
