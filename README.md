@@ -7,7 +7,7 @@ This is an example cell segmentation procedure in histopathological images based
 Unlike traditional deep learning based approaches which use 2-classes ("background" and "cell"), we use 4-classes ("background", "cell center", "cell innerboundary" and "cell outerboundary") to better delineate nucleus boundaries as well. Following figure demonstrates a training patch extraction procedure.
 
 <p align="center">
-  <img src="./patchExtraction.png" width="70%" height="50%"/>
+  <img src="./patchExtraction.png" width="70%" height="20%"/>
 </p>
 
 [Caffe](http://caffe.berkeleyvision.org/) framework and Matlab is used for the implementation of the project
