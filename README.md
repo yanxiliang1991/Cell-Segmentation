@@ -4,7 +4,7 @@ Deep Learning Based Cell Segmentation
 
 This is an example cell segmentation procedure in histopathological images based on convolutional neural networks.
 
-Unlike traditional deep learning based approaches which use 2-classes ("background" and "cell"), we use 4-classes ("background", "cell center", "cell innerboundary" and "cell outerboundary") to better delineate nucleus boundaries as well. Following figure demonstrates a training patch extraction procedure.
+Unlike traditional deep learning based approaches which use 2-classes ("background" and "cell"), we use 4-classes ("background", "cell center", "cell innerboundary" and "cell outerboundary") as inputs to train the model. In this way, we can delineate nucleus boundaries more accurately. Following figure demonstrates a training patch extraction procedure for 4-class model.
 
 <p align="center">
   <img src="./patchExtraction.png" width="50%" height="50%"/>
