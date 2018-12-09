@@ -10,10 +10,10 @@ Unlike traditional deep learning based approaches which use 2-classes ("backgrou
   <img src="./patchExtraction.png" width="50%" height="50%"/>
 </p>
 
-***
 
 Data Augmentation
 -------------
+In machine learning, the more data samples we have, the better our model will be. However, we do not have so many data samples in practice since collecting and labeling data are time consuming and costly processes. Therefore, we need data augmentation which is a technique for increasing the number of samples in the dataset in artificial ways. In this project, we augment the number of training images using "mirroring", "random rotation", and "filtering". Sample augmented images are shown in the following figure. 
 
 
 Results
