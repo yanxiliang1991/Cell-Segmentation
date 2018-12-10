@@ -29,15 +29,25 @@ In the following figure, sample segmentation results are shown for 2-class and 4
   <img src="./sampleSegmentation.png" width="80%" height="80%"/>
 </p>
 
+
 Prerequisites
 -------------
 [Caffe](http://caffe.berkeleyvision.org/) deep learning framework and Python are used for the implementation of the project.
 
 Model is trained and tested on Ubuntu 16.04 machine.
 
+
+How to Run
+-------------
+1) To generate training and validation image patches, run "extractTrainingPatches.py". You can configure "patch size" and "number of samples in each class"
+2) To train the model, run "train.py". You can configure "batch size" and "augmentation" parameters in "train_val.prototxt" file
+3) To test the model on a sample test image, run "test.py". This will save "estimatedLabels.jpg" to a file
+
+
 Contact
 -------
 E-mail: deniz.mail@gmail.com
+
 
 References
 ------------
