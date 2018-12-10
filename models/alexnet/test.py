@@ -46,7 +46,7 @@ def main():
     deployFile = "deploy.prototxt"
     meanData = [173,186,158]
     modelFile = "weights/alexnet_iter_10000.caffemodel"
-    imageFile = "testIm.jpg"
+    imageFile = "../../images/testIm.jpg"
 
     net = initModel(modelFile, deployFile)
 
