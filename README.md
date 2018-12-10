@@ -31,11 +31,9 @@ In the following figure, sample segmentation results are shown for 2-class and 4
 
 Prerequisites
 -------------
-[Caffe](http://caffe.berkeleyvision.org/) framework and Matlab is used for the implementation of the project
+[Caffe](http://caffe.berkeleyvision.org/) deep learning framework and Python are used for the implementation of the project.
 
-Matlab, Caffe, Matcaffe
-
-Project is implemented on Ubuntu 16.04 machine with Matlab R2014a installed
+Model is trained and tested on Ubuntu 16.04 machine.
 
 Contact
 -------
