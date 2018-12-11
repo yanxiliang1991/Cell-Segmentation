@@ -39,9 +39,9 @@ Model is trained and tested on Ubuntu 16.04 machine.
 
 How to Run
 -------------
-1) To generate training and validation image patches, run "extractTrainingPatches.py". You can configure "patch size" and "number of samples in each class"
-2) To train the model, run "train.py". You can configure "batch size" and "augmentation" parameters in "train_val.prototxt" file
-3) To test the model on a sample test image, run "test.py". This will save "estimatedLabels.jpg" to a file
+1) To generate training and validation image patches, run [extractTrainingPatches.py](models/alexnet/extractTrainingPatches.py). You can configure "patch size" and "number of samples in each class"
+2) To train the model, run [train.py](models/alexnet/train.py). You can configure "batch size" and "augmentation" parameters in "train_val.prototxt" file
+3) To test the model on a sample test image, run [test.py](models/alexnet/test.py). This will save "estimatedLabels.jpg" to a file
 
 
 Contact
